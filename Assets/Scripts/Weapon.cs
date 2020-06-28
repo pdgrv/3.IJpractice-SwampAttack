@@ -2,17 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Weapon : MonoBehaviour
+public abstract class Weapon : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private string _label;
+    [SerializeField] private int _price;
+    [SerializeField] private Sprite _icon;
+    [SerializeField] private bool _isBuyed = false;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [SerializeField] private Bullet _bullet;
+
+    public abstract void Shoot(Transform shootPoint);
 }
