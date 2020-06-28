@@ -26,5 +26,17 @@ public class Player : MonoBehaviour
         {
             _currentWeapon.Shoot(_shootPoint);
         }
+
+        if (Input.GetMouseButtonDown(1)) //for tests
+        {
+            if (_currentWeapon == _weapons[0])
+            {
+                _currentWeapon = _weapons[1];
+            }
+            else
+            {
+                _currentWeapon = _weapons[0];
+            }
+        }
     }
 }
