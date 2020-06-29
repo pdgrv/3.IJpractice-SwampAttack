@@ -42,5 +42,18 @@ public class Player : MonoBehaviour
         }
     }
 
-    
+    public void ApplyDamage(int damage)
+    {
+        _currentHealth -= damage;
+
+        if (_currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+
+    private void Die()
+    {
+        Destroy(gameObject);
+    }
 }
