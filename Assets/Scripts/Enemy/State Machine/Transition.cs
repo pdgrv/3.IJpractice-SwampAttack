@@ -14,7 +14,7 @@ public abstract class Transition : MonoBehaviour
 
     public void Init(Player target)
     {
-        Target = target; 
+        Target = target;
     }
 
     private void OnEnable()
