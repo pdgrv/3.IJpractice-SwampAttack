@@ -13,6 +13,8 @@ public class Player : MonoBehaviour
     private int _currentHealth;
     private Animator _animator;
 
+    public int Money { get; private set; }
+
     private void Start()
     {
         _currentWeapon = _weapons[0];
@@ -39,4 +41,6 @@ public class Player : MonoBehaviour
             }
         }
     }
+
+    
 }
