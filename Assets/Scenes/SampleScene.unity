@@ -1250,8 +1250,8 @@ MonoBehaviour:
   - Template: {fileID: 4279447307152520419, guid: c39146647bf3c784eb8bc9d55ea4e440,
       type: 3}
     Delay: 1
-    Count: 5
-  - Template: {fileID: 4279447307152520419, guid: c39146647bf3c784eb8bc9d55ea4e440,
+    Count: 3
+  - Template: {fileID: 8501110331151606307, guid: 5cf1427c2fecf13439724e30c5106246,
       type: 3}
     Delay: 0.5
     Count: 10
@@ -2363,7 +2363,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 68.7, y: -295}
+  m_AnchoredPosition: {x: 68.700195, y: -295}
   m_SizeDelta: {x: 137.30597, y: 91.29108}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1819335664
