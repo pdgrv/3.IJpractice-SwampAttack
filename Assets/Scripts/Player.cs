@@ -56,4 +56,9 @@ public class Player : MonoBehaviour
     {
         Destroy(gameObject);
     }
+
+    public void AddMoney(int money)
+    {
+        Money += money;
+    }
 }
