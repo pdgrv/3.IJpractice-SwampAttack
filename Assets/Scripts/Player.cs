@@ -14,7 +14,7 @@ public class Player : MonoBehaviour
     private int _currentHealth;
     private Animator _animator;
 
-    public event UnityAction<int,int> HealthChanged;
+    public event UnityAction<int, int> HealthChanged;
 
     public int Money { get; private set; }
 
@@ -64,5 +64,11 @@ public class Player : MonoBehaviour
     public void AddMoney(int money)
     {
         Money += money;
+    }
+
+    public void BuyWeapon(Weapon weapon)
+    {
+        Money -= weapon.Price;
+        _weapons.Add(weapon);
     }
 }
