@@ -2465,7 +2465,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _weapons:
-  - {fileID: 5263240945202647339, guid: 48763bb766de8c540b29935c7954c9b4, type: 3}
   - {fileID: 6022266435412242380, guid: eef16dd2ad0a4c84a9e5daa4b7b72f0f, type: 3}
   - {fileID: 6625102403463206613, guid: 6670c190c1031b24b8ca751122a44560, type: 3}
   _player: {fileID: 1268174706}
@@ -4121,7 +4120,6 @@ MonoBehaviour:
   _health: 10
   _weapons:
   - {fileID: 5263240945202647339, guid: 48763bb766de8c540b29935c7954c9b4, type: 3}
-  - {fileID: 6022266435412242380, guid: eef16dd2ad0a4c84a9e5daa4b7b72f0f, type: 3}
   _shootPoint: {fileID: 1817817013}
 --- !u!1 &1328278026
 GameObject:
