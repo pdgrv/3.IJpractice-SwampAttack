@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
 
     public event UnityAction<int, int> HealthChanged;
     public event UnityAction<int> MoneyChanged;
+    public event UnityAction<Weapon> WeaponChanged;
 
     public int Money { get; private set; }
 
@@ -88,5 +89,6 @@ public class Player : MonoBehaviour
     private void ChangeWeapon(Weapon weapon)
     {
         _currentWeapon = weapon;
+        WeaponChanged?.Invoke(weapon);
     }
 }

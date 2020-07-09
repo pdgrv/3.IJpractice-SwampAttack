@@ -32,7 +32,6 @@ public class WeaponView : MonoBehaviour
     {
         if (_weapon.IsBuyed)
             _sellButton.interactable = false;
-
     }
 
     public void Render(Weapon weapon)
